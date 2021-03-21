@@ -8,6 +8,8 @@ Para ejecutar:      ./crear_archivo.sh
 Resumen:            Crea un archivo de c con entradas y salidas.
 Header
 
+apt-get install sudo
+
 #imprimimos un encabezado con echo
 echo "* * * * Vamos a crear un archivo C * * * * "
 #pedimos que ingrese un nombre y lo guardamos en una variable
