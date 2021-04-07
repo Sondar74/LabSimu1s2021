@@ -4,7 +4,7 @@ Compilador:  gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 Compilado: gcc nombre.c -o nombre
 Fecha:  Sat Mar 20 04:20:49 UTC 2021
 librerias: stdio (u otras)
-Resumen:
+Resumen: este es el ultimo
 Entrada:
 Salida:
 */
