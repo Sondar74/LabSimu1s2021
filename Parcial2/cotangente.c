@@ -47,7 +47,7 @@ void NR(float x0, float tol,float maxiter,int *actiter,float *sol){
     //primera iteracion:
     x=xant-f(xant)/df(xant);
     x=x-xant;
-    (dif<0)?dif=-dif:dif;
+  
     while(dif<tol && i<maxiter){
         xant=x;
         x=xant-f(xant)/df(xant);
