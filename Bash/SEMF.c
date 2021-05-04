@@ -50,7 +50,7 @@ int main(){
 		f5=0;
 
 	}
-	masaa=(f0+f2+f3+f4+f5-f1)/941.4940;
+	masaa=(f0+f2+f3+f4+f5-f1)/931.4940;
 	
 	printf("M(A,Z)= %.4f",masaa);
 
