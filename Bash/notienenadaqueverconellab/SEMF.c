@@ -50,6 +50,7 @@ int main(){
 		f5=0;
 
 	}
+<<<<<<< HEAD:Bash/notienenadaqueverconellab/SEMF.c
 	
 
 	
@@ -57,6 +58,9 @@ int main(){
 	masaa=100+f0+17.23*(pow(A,0.6))-(15.56*A)+(0.697*pow(Z,2)/(pow(A,0.33)))+(23.2*(pow((Z-(A/2)),2))/A)+f5;
 	
 
+=======
+	masaa=(f0+f2+f3+f4+f5-f1)/931.4940;
+>>>>>>> 7fa8da72b78f541f3bf04b5b93c241da3a227d0f:Bash/SEMF.c
 	
 	printf("M(A,Z)= %.4f",masaa);
 
