@@ -21,7 +21,6 @@ float sumdata( float datos[]);
 float sumdatamul(float a[],float b[]);
 //ahora, para el inciso 2
 float error(float a[], float b[]);
-void imprimirvec(float datos[]);
 float errorxy(float datos[]);
 
 int main(){
