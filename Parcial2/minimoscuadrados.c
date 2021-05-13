@@ -57,7 +57,7 @@ int main(){
     //error de b
     errorb=(m*sumdata(x)*((errorm/m) + (errorx/sumdata(x))))/5;
     //error final:
-    errorseis=6*errorm+errorb;
+    errorseis=(6*errorm+errorb)/10;
     printf("longitud para 6N = %f +- %f\n",seis,errorseis);
 
 

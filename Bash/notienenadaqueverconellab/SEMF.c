@@ -25,7 +25,7 @@ int main(){
 	a1=15.56;
 	a2=17.23;
 	a3=0.697;
-	a4=93.2;
+	a4=93.14;
 	n=2;
 	masap=938.272013;
 	masae=0.51099892;
@@ -38,7 +38,7 @@ int main(){
 	f2=a2*pow(A, 2/3);
 	f1=a1*A;
 	f3=a3*pow(Z, 2)/pow(A,1/3);
-	f4=a4*pow((Z-A/2),2)/A;
+	f4=a4*pow((Z-(A/2)),2)/A;
 	if(A % n==0 && Z % n == 0){
 		f5=(-1)*12*pow(A, -1/2);
 
@@ -50,7 +50,17 @@ int main(){
 		f5=0;
 
 	}
+<<<<<<< HEAD:Bash/notienenadaqueverconellab/SEMF.c
+	
+
+	
+	
+	masaa=100+f0+17.23*(pow(A,0.6))-(15.56*A)+(0.697*pow(Z,2)/(pow(A,0.33)))+(23.2*(pow((Z-(A/2)),2))/A)+f5;
+	
+
+=======
 	masaa=(f0+f2+f3+f4+f5-f1)/931.4940;
+>>>>>>> 7fa8da72b78f541f3bf04b5b93c241da3a227d0f:Bash/SEMF.c
 	
 	printf("M(A,Z)= %.4f",masaa);
 
